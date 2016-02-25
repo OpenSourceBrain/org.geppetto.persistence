@@ -63,7 +63,7 @@ public class DBOSBData
 	private DBManager dbManager;
 	private User user;
 
-	private final static String osbPath = "/home/adrian/Programs/virgo-tomcat-server-3.6.3.RELEASE/OSB_Samples/";
+	private final static String osbPath = "/home/virgo/geppetto/OSB_Samples/";
 
 	public DBOSBData()
 	{
