@@ -125,7 +125,7 @@ public class DBOSBData
 		privileges.add(UserPrivileges.READ_PROJECT);
 		privileges.add(UserPrivileges.DOWNLOAD);
 		UserGroup group = new UserGroup("anonymousGroup", privileges, 0, 0);
-		user = new User("osbanonymous", "anonymous", "osbanonymous", new ArrayList<GeppettoProject>(), group);
+		user = new User("osbanonymous", "anonymous", "Anonymous User", new ArrayList<GeppettoProject>(), group);
 		dbManager.storeEntity(group);
 		dbManager.storeEntity(user);
 	}
